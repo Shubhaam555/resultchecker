@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result_Checker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #container {
+            width: 150vh;
+            height: 90vh;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+        }
+
+        .card1 {
+            width: 70vh;
+            height: 90vh;
+            background-color: #7730CF;
+            border-radius: 12px 30% 20% 12px;
+            float: left;
+        }
+
+        .h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+           margin-top: 150px;
+            color: #fff;
+        }
+        #h2{
+            color: #fff;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+        }
+
+        .p {
+            color: #fff;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 150px;
+            height: 30px;
+            border-radius: 5px;
+            border: 2px solid #fff;
+            color: #fff;
+            background-color: #7730CF;
+        }
+        button:hover{
+           width: 180px;
+           background-color: #7F00FF;
+          
+        }
+
+        .h1a {
+            padding-top: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+        }
+       
+        input {
+            width: 75vh;
+            height: 5vh;
+            padding-left: 10px;
+            border-radius: 5px;
+        }
+
+        span {
+            font-size: 25px;
+
+        }
+
+        i {
+            margin: 25px;
+            width: 31px;
+            height: 28px;
+            border: 2px solid grey;
+            border-radius: 6px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+            
+        }
+
+        .p1 {
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        marquee{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div id="container">
+            <div class="card1">
+                <h1 class="h1">WELCOME BACK!</h1><br>
+                <p class="p">Enter Your Personal Subjects Marks Details To Use All Of Site <br> Features.</p>
+                <br><br>
+                <h2 id="h2"></h2>
+
+
+                <button onclick="check()"> CHECK RESULT</button>
+            </div>
+            <div class="card2">
+                <h1 class="h1a">Exam Result Checker</h1>
+                <span>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+
+
+
+                </span>
+               
+                <p class="p1">
+                    This website is strictly for students to view their results. <br>
+                    If it is used or accessed for any other purpose then it is punishable under Cyber Crime.
+                
+
+                </p>
+                <marquee  width="500">Sarkari Result Android Apps || Sarkari Result Youtube Channel || Sarkari Result Apple / IOS Apps|| Follow Instagram
+                    UGC NET June 2024 Certificate || REET 2024 Online Form | | AIBE 19th Answer Key 2024
+                    MPESB Primary TET Answer Key 2024 || UPP Constable DV / PST Admit Card 2024 || SBI Clerk Online Form 2024
+                    Allahabad HC Group C D Exam City 2024 || RRB Junior Engineer JE Answer Key 2024 || UPSSSC Junior Assistant Online Form 2024</marquee>
+                
+
+                <br><br>
+
+                <input type="tel" placeholder="ENTER YOUR MARKS OF HINDI SUBJECT" id="hindi"> <br><br>
+                <input type="tel" placeholder="ENTER YOUR MARKS OF ENGLISH SUBJECT" id="english"> <br><br>
+                <input type="tel" placeholder="ENTER YOUR MARKS OF MATHS SUBJECT" id="maths"> <br><br>
+                <input type="tel" placeholder="ENTER YOUR MARKS OF PHYSICS SUBJECT" id="physics"> <br><br>
+                <input type="tel" placeholder="ENTER YOUR MARKS OF CHEMISTRY SUBJECT" id="chemistry"> <br><br>
+            </div>
+
+
+
+
+
+
+        </div>
+    </center>
+<script src="script.js"></script>
+</body>
+
+</html>
